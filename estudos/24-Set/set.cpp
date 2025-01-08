@@ -50,10 +50,11 @@ int main() {
     // Método size() para retornar o tamanho (complexidade O(1)):
     cout << "Tamanho do set: " << s.size() << "\n";
 
-    // Método clear() para limpar o set (O(n))
+    // Método clear() para limpar o set (O(n)).
 
-    // OBS.: Por padrão, os elementos em um conjunto são classificados em ordem crescente. Se você quiser inverter a ordem, pode usar o functor dentro dos colchetes angulares, assim:greater<type>
+    // OBS.: Por padrão, os elementos em um conjunto são classificados em ordem crescente. Se você quiser inverter a ordem, pode usar o functor dentro dos colchetes angulares, assim: greater<type>:
     set<int, greater<int>> numbers = {1, 7, 3, 2, 5, 9};
+    cout << "Set em ordem decrescente: ";
     for (int num : numbers) {
         cout << num << " ";
     }
