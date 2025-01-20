@@ -22,7 +22,7 @@ int main() {
     return 0;
 }
 
-void iniVetor(int* vetor){ // Mesmo de fazer o código da função "ptarr" do arquivo "teste.cpp" desta pasta, mas esta implementação evita o incremento explícito do ponteiro.
+void iniVetor(int* vetor){ // Mesmo de fazer o código da função "ptarr" do arquivo "6-ponteiros_e_funcoes3.cpp" desta pasta, mas esta implementação evita o incremento explícito do ponteiro.
     for (int i = 0; i < 5; i++) {
         vetor[i] = i;
     }
