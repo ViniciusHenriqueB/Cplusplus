@@ -1,0 +1,7 @@
+public: Permite que os membros da classe sejam acessados de qualquer lugar onde o objeto seja visível, incluindo fora da classe. Comumente usado para métodos e atributos que precisam ser acessados externamente.
+
+protected: Permite que os membros sejam acessados pela própria classee pelas classes derivadas (subclasses), mesmo se forem de um arquivo diferente. Normalmente usado para dados ou métodos que não devem ser acessados diretamente fora da hierarquia de herança.
+
+private: Permite que os membros sejam acessados somente pela própria classe. Classes derivadas não têm acesso direto aos membros privados da classe base, a menos que métodos public ou protected exponham esses membros de forma controlada.
+
+Obs.: A visibilidade default em C++ é "private".
